@@ -58,5 +58,5 @@ eslint配置（.eslintrc.json）：
 
 babel-eslint 和 typescript-eslint 的区别:
 babel-eslint：支持TypeScript没有的 额外语法检查，抛弃TypeScript，不支持类型检查
-typescript-eslint：基于TypeScript的AST，支持创建基于类型信息的规则（tsconfig.json）
+typescript-eslint：基于TypeScript的AST，支持创建基于类型信息的规则（tsconfig.json）\n
 建议：两者底层机制不一样，不要一起使用，如果是babel体系的，用babel-eslint，否则用typescript-eslint
