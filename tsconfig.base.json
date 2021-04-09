@@ -1,0 +1,12 @@
+{
+  "files": [ // 编译器需要编译的单个文件的列表
+    "src/a.ts"
+  ],
+  "include": [ // 编译器需要编译的文件或者目录 src/* 表示 src底下一级目录的文件
+    "src/es6"
+  ],
+  "exclude": [ // 编译器需要排除的文件或者目录 默认会排除node_modules
+    "src/libs"
+  ],
+  "references": [] // 依赖
+}
