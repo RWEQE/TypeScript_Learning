@@ -60,3 +60,16 @@ babel-eslint 和 typescript-eslint 的区别:
 babel-eslint：支持TypeScript没有的 额外语法检查，抛弃TypeScript，不支持类型检查
 typescript-eslint：基于TypeScript的AST，支持创建基于类型信息的规则（tsconfig.json）
 建议：两者底层机制不一样，不要一起使用，如果是babel体系的，用babel-eslint，否则用typescript-eslint
+
+单元测试：
+  使用jest，同样有几种：
+    ts系：ts-jest
+    babel系：babel-jest
+
+ts系：
+package.json中安装 "jest", "ts-jest", "@types/jest"
+
+单元测试 可以进行类型检查
+
+babel系：
+安装 "jest", "babel-jest", "@types/jest"

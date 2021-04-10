@@ -65,3 +65,5 @@ let error = () => {
 let endless = () => {
   while(true) {}
 }
+
+export {}
